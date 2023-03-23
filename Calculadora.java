@@ -61,6 +61,8 @@ public class Calculadora {
 //		this.segNumIngrado= segNumIngrado;
 //		scan.close();
 //	}
+	
+	
 	public void hacerCuenta() {
 		if (this.operador == '+') {
 			
@@ -84,47 +86,29 @@ public class Calculadora {
 				this.segNumIngrado +" = " + this.resultado);	
 }
 
-
-
-
-	
 	
 	public static double sumar (double primNumIngresado, double segNumIngrado){
 	
-//		this.resultado = primNumIngresad + seguNumIngresado;
 		return primNumIngresado + segNumIngrado;
 	}
 	
 	
 	public static double restar(double primNumIngresado, double segNumIngrado){
 	
-//		this.resultado = primNumIngresad - seguNumIngresado;
 		return primNumIngresado - segNumIngrado;
 	}
 	
 	
 	public static double multiplicar(double primNumIngresado, double segNumIngrado){
 	
-//		this.resultado = primNumIngresado * segNumIngrado;
 		return  primNumIngresado * segNumIngrado;
 	}
 	
 	
 	public static double dividir(double primNumIngresado, double segNumIngrado){
 	
-//		this.resultado = primNumIngresado / segNumIngrado;
 		return primNumIngresado / segNumIngrado;
 	}
-	
-	
-	
-	
-	
-
-
-	
-	
-	
 	
 	
 	
