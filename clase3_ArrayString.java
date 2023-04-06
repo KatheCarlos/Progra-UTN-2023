@@ -65,7 +65,6 @@ public static int [] vectorOrdenado (int num ,int num2,int num3, char l) {
 			}else if (l =='a') {
 				vector [0]= elNumMenorDeTres(num, num2, num3);
 				vector [2] = elNumMayorDeTres(num, num2, num3);
-				System.out.println(elNumMayorDeTres(num, num2, num3)+"ppppppppppppppp");
 				vector [1] = elNumDelMedio (vector, num,num2, num3);
 			}
 		}else {
