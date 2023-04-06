@@ -16,7 +16,7 @@ static int cantLetraString (String palabra, char l){
 
 
 }
-// b) Dados 3 números  y un orden (ascendente o decreciente) 
+// b) Dados 3 nÃºmeros  y un orden (ascendente o decreciente) 
 //que ordene los mismos y los retorne en un vector de 3
 public static int elNumMayorDeTres(int num1,int num2,int num3){
 
@@ -79,8 +79,8 @@ public static int [] vectorOrdenado (int num ,int num2,int num3, char l) {
 		return vector;
 } 
 //c)
-//dado un vector de números, y un número X, que sume 
-//todo los números > X y retorne el resultado
+//dado un vector de nÃºmeros, y un nÃºmero X, que sume 
+//todo los nÃºmeros > X y retorne el resultado
 public static int sumaDeNumsMayorX (int[]vector ,int x) {
 	int suma =0;
 	for (int i = 0; i <vector.length; i++) {
@@ -91,7 +91,7 @@ public static int sumaDeNumsMayorX (int[]vector ,int x) {
 	return suma;	
 }
 //2)
-//Genere una clase, utilice el método Split para separar una lista de 10 nombres
+//Genere una clase, utilice el mÃ©todo Split para separar una lista de 10 nombres
 //	tomados de una variable, luego muestre por consola el resultado. 
 public static void mostrarNombre (String lista){
 
@@ -127,7 +127,7 @@ public static void mostrarNombre (String lista){
 		int [] ejC = {45,1,60};
 		System.out.println("ejC "+sumaDeNumsMayorX(ejC,10));
 
-		String ej2= "computadora;programacion;teclado";
+		String ej2= "katherine;stephanie,maria";
 		 mostrarNombre(ej2);
 	}
 }
